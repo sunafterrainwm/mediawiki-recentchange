@@ -1,0 +1,24 @@
+{
+	"name": "@sunafterrainwm/mediawiki-recentchange",
+	"version": "0.0.1",
+	"description": "",
+	"author": "sunafterrainwm <sunafterrainwm@gmail.com>",
+	"license": "BSD-3-Clause",
+	"main": "build/recentchange.mjs",
+	"types": "build/recentchange.d.mts",
+	"type": "module",
+	"scripts": {
+		"build": "recentchange",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@types/node": "^20.9.0",
+		"mwn": "^2.0.1",
+		"types-mediawiki": "^1.4.0",
+		"typescript": "^5.2.2"
+	},
+	"peerDependencies": {
+		"mwn": ">2"
+	}
+}
